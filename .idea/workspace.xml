@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="157fa991-27ab-4bfc-a92a-1c4a538cfeeb" name="Changes" comment="update project, fxml" />
+    <list default="true" id="157fa991-27ab-4bfc-a92a-1c4a538cfeeb" name="Changes" comment="controller y dto">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,8 +48,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -67,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740186246555</updated>
-      <workItem from="1740186248121" duration="3458000" />
+      <workItem from="1740186248121" duration="4794000" />
     </task>
     <task id="LOCAL-00001" summary="Creación del proyecto">
       <option name="closed" value="true" />
@@ -93,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740189295266</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="controller y dto">
+      <option name="closed" value="true" />
+      <created>1740190314689</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740190314689</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +136,7 @@
     <MESSAGE value="Creación del proyecto" />
     <MESSAGE value="update project" />
     <MESSAGE value="update project, fxml" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project, fxml" />
+    <MESSAGE value="controller y dto" />
+    <option name="LAST_COMMIT_MESSAGE" value="controller y dto" />
   </component>
 </project>
