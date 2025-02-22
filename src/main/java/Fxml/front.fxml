@@ -62,9 +62,9 @@
       </GridPane>
       <TableView layoutX="77.0" layoutY="253.0" prefHeight="254.0" prefWidth="442.0" style="-fx-border-radius: 10px;">
         <columns>
-          <TableColumn prefWidth="75.0" text="Cantidad" />
-          <TableColumn prefWidth="213.5999755859375" text="Nombre del producto" />
-            <TableColumn prefWidth="152.80002441406248" style="radius: 5;" text="Precio" />
+          <TableColumn fx:id="cantidad" prefWidth="75.0" text="Cantidad" />
+          <TableColumn fx:id="productName" prefWidth="213.5999755859375" text="Nombre del producto" />
+            <TableColumn fx:id="cost" prefWidth="152.80002441406248" style="radius: 5;" text="Precio" />
         </columns>
       </TableView>
       <Button layoutX="241.0" layoutY="193.0" mnemonicParsing="false" opacity="0.83" style="-fx-border-radius: 15;" text="Agregar producto" />
