@@ -3,22 +3,18 @@ package dto;
 public abstract class Producto {
 
     private int ID;
+    private int contID =1 ;
     private String nombre;
     private double precio;
     private int stock;
     private boolean  estado = true;
 
     public Producto(int ID, String nombre, double precio, int stock) {
-        this.ID = ID;
+        this.ID = contID++;
         this.nombre = nombre;
         this.precio = precio;
         this.stock = stock;
-    }
-
-    public Producto(String nombre, double precio, int stock) {
-        this.nombre = nombre;
-        this.precio = precio;
-        this.stock = stock;
+        
     }
 
     public int getID() {
